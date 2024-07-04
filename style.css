@@ -17,10 +17,11 @@ html {
 }
 
 .nav-list {
-    list-style: none;
+    display: flex;
 }
 
 .nav-list__item {
+    list-style: none;
     padding: 0 20px;
     line-height: 50px;
 }
