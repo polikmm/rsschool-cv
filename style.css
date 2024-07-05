@@ -13,15 +13,29 @@ html {
 
 .container {
    max-width: 1440px;
-    margin: 0 auto;
+   margin: 0 auto;
+}
+
+header {
+    background-color: #e6e6e6;
 }
 
 .nav-list {
     display: flex;
+    justify-content: center;
 }
 
 .nav-list__item {
     list-style: none;
-    padding: 0 20px;
+    padding: 0 40px;
     line-height: 50px;
+}
+
+.nav-list__item a{
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-list__item a:hover {
+    color: rgb(174, 123, 81);
 }
