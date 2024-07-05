@@ -127,6 +127,18 @@ header {
     padding-left: 10%;
 }
 
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(174, 123, 81);
+    padding: 20px auto;
+}
+
+.footer a {
+    margin: auto 0;
+    color: #000;
+}
+
 @media (max-width: 815px) {
    .nav-list {
     display: block;
