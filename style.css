@@ -20,6 +20,9 @@ header {
     background-color: #e6e6e6;
 }
 
+.burger {
+    display: none;
+}
 .nav-list {
     display: flex;
     justify-content: center;
@@ -142,6 +145,7 @@ header {
    }
 
    .burger {
+    display: block;
     position: relative;
     border: none;
     background: transparent;
