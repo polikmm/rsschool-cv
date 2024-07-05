@@ -39,3 +39,8 @@ header {
 .nav-list__item a:hover {
     color: rgb(174, 123, 81);
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}

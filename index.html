@@ -1,75 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>CV</title>
 </head>
+
 <body>
     <header>
         <div class="container">
-          <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-list__item"><a href="#contacts">Contacts</a></li>
-                <li class="nav-list__item"><a href="#summary">About Me</a></li>
-                <li class="nav-list__item"><a href="#skills">Skills</a></li>
-                <li class="nav-list__item"><a href="#code">Code Example</a></li>
-                <li class="nav-list__item"><a href="#experience">Experience</a></li>
-                <li class="nav-list__item"><a href="#education">Education</a></li>
-                <li class="nav-list__item"><a href="#english">English</a></li>
-            </ul>
-           </nav>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="#contacts">Contacts</a></li>
+                    <li class="nav-list__item"><a href="#summary">About Me</a></li>
+                    <li class="nav-list__item"><a href="#skills">Skills</a></li>
+                    <li class="nav-list__item"><a href="#code">Code Example</a></li>
+                    <li class="nav-list__item"><a href="#experience">Experience</a></li>
+                    <li class="nav-list__item"><a href="#education">Education</a></li>
+                    <li class="nav-list__item"><a href="#english">English</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <main>
-      <section class="section" id="profile">
-        <div class="container">
-          <img src="" alt="">
-          <h1 class="heading">Danilova Mariia</h1>
-          <p class="text">Junior Front-End Developer</p>
+    <main class="gtid">
+        <div class="left-side">
+            <section class="section" id="profile">
+                <div class="container">
+                    <img src="" alt="">
+                    <h1 class="heading">Danilova Mariia</h1>
+                    <p class="text">Junior Front-End Developer</p>
+                </div>
+            </section>
+
+            <section class="section" id="contacts">
+                <div class="container">
+                    <ul class="section-contacts-items">
+                        <li class="section-contacts__item"><span>Location:</span> Georgia, Tbilisi</li>
+                        <li class="section-contacts__item"><span>Phone:</span><a href="tel:+995591093773">+995 591 093
+                                773(ge)</a>,<a href="tel: +7(985)8026969"> +7 (985) 802 69 69(ru)</a></li>
+                        <li class="section-contacts__item"><span>Email:</span><a
+                                href="mailto: polikmm@mail.ru">polikmm@mail.ru</a></li>
+                        <li class="section-contacts__item"><span>GitHub:</span><a
+                                href="https://github.com/polikmm">polikmm</a></li>
+                    </ul>
+                </div>
+            </section>
         </div>
-      </section>
+        <div class="right-side">
+            <section class="section" id="summary">
+                <div class="container">
+                    <p class="section-summary__text">
+                        At May of 2023 i quitted my previous job and started the big way of searching myself. My husband
+                        adviced me to try front-end development, thinkinkg i'd like it. So it was.
 
-      <section class="section" id="contacts">
-        <div class="container">
-            <ul class="section-contacts-items">
-              <li class="section-contacts__item"><span>Location:</span> Georgia, Tbilisi</li>
-              <li class="section-contacts__item"><span>Phone:</span><a href="tel:+995591093773">+995 591 093 773(ge)</a>,<a href="tel: +7(985)8026969"> +7 (985) 802 69 69(ru)</a></li>
-              <li class="section-contacts__item"><span>Email:</span><a href="mailto: polikmm@mail.ru">polikmm@mail.ru</a></li>
-              <li class="section-contacts__item"><span>GitHub:</span><a href="https://github.com/polikmm">polikmm</a></li>
-             </ul>
-        </div>
-      </section>
+                        One of my strengths is a soft skills. I worked a cabin attendant for 4.5 years, so i can find a
+                        to a person in different situations.
+                        Also i like studying and sure that it's really important for everyone regardless of profession.
 
-      <section class="section" id="summary">
-        <div class="container">
-          <p class="section-summary__text">
-              At May of 2023 i quitted my previous job and started the big way of searching myself. My husband adviced me to try front-end development, thinkinkg i'd like it. So it was.
+                        I want to be useful for the product in wich i work and make the process of using it by customers
+                        more easier as much as it possible.
+                    </p>
+                </div>
+            </section>
 
-              One of my strengths is a soft skills. I worked a cabin attendant for 4.5 years, so i can find a to a person in different situations.
-              Also i like studying and sure that it's really important for everyone regardless of profession.
-           
-              I want to be useful for the product in wich i work and make the process of using it by customers more easier as much as it possible.
-         </p>
-        </div>
-      </section>
+            <section class="section" id="skills">
+                <div class="container">
+                    <ul class="section-skills-items">
+                        <li class="section-skills__item">HTML</li>
+                        <li class="section-skills__item">CSS</li>
+                        <li class="section-skills__item">JavaScript(Basic)</li>
+                        <li class="section-skills__item">Git</li>
+                    </ul>
+                </div>
+            </section>
 
-      <section class="section" id="skills">
-        <div class="container">
-          <ul class="section-skills-items">
-              <li class="section-skills__item">HTML</li>
-              <li class="section-skills__item">CSS</li>
-              <li class="section-skills__item">JavaScript(Basic)</li>
-              <li class="section-skills__item">Git</li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="section" id="code">
-        <div class="container">
-          <pre class="section-code__example">
+            <section class="section" id="code">
+                <div class="container">
+                    <pre class="section-code__example">
              <code>
                  function sum(a, b) {
                      return a + b;
@@ -79,34 +89,43 @@
                    alert( result );
              </code>
           </pre>
-        </div>
-      </section>
+                </div>
+            </section>
 
-      <section class="section" id="experience">
-        <div class="container">
+            <section class="section" id="experience">
+                <div class="container">
 
-        </div>
-      </section>
+                </div>
+            </section>
 
-      <section class="section" id="education">
-        <div class="container">
-            <ul class="section-education-items">
-              <li>
-                   <ul class="section-education-items-self-education">
-                      <li class="section-education-items-self-education__item"><a href="https://learn.javascript.ru/">Современный учебник JavaScript</a></li>
-                      <li class="section-education-items-self-education__item"><a href="https://stepik.org/course/177315/syllabus">JavaScript Продвинутый уровень</a></li>
-                      <li class="section-education-items-self-education__item"><a href="https://stepik.org/course/113402/syllabus">Frontend разработчик на HTML, CSS и JavaScript</a></li>
-                   </ul>
-             </li>
-            </ul>
+            <section class="section" id="education">
+                <div class="container">
+                    <ul class="section-education-items">
+                        <li>
+                            <ul class="section-education-items-self-education">
+                                <li class="section-education-items-self-education__item"><a
+                                        href="https://learn.javascript.ru/">Современный учебник JavaScript</a></li>
+                                <li class="section-education-items-self-education__item"><a
+                                        href="https://stepik.org/course/177315/syllabus">JavaScript Продвинутый
+                                        уровень</a></li>
+                                <li class="section-education-items-self-education__item"><a
+                                        href="https://stepik.org/course/113402/syllabus">Frontend разработчик на HTML,
+                                        CSS и JavaScript</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section" id="english">
+                <div class="container">
+                    <p class="section-english__text"><span>A2</span> (nowadays studying with teacher online to upgrade
+                        level) </p>
+                </div>
+            </section>
         </div>
-      </section>
-      
-      <section class="section" id="english">
-        <div class="container">
-             <p class="section-english__text"><span>A2</span> (nowadays studying with teacher online to upgrade level) </p>
-        </div>
-      </section>
+
     </main>
 </body>
+
 </html>
