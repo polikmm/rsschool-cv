@@ -79,3 +79,16 @@ header {
     font-weight: bold;
     letter-spacing: 2px;
 }
+
+.section-summary__text {
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.section-skills__item {
+    font-size: 20px;
+    margin: 10px 0;
+    margin-left: 10%;
+}
